@@ -622,8 +622,8 @@
             }];
         }
     }
-    
     if (flutterResult != nil) {
+        NSLog(@"\n\n\n  FlutterResult is not nil  \n\n.");
         flutterResult(items);
     }
     flutterResult = nil;
